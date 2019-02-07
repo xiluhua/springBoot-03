@@ -72,7 +72,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 		false：表示只用当前logger的appender-ref，true：
 		表示当前logger的appender-ref和rootLogger的appender-ref都有效
     -->
-    <!-- logger -->
+    <!-- logger org.thymeleaf -->
     <logger name="org.thymeleaf"  level="error" />
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="info" additivity="true"></logger>
